@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "8661F33A-C48F-43CA-B72A-962092B21FC0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CA18AA0B-06BC-4812-92BB-FA9C15E83365"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SlideGalleryController/PhotoSliderView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "PhotoSliderView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "CA18AA0B-06BC-4812-92BB-FA9C15E83365 - 782283799156d7d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlideGalleryController.PhotoSliderView.scrollView.getter : Swift.Optional&lt;__C.UIScrollView&gt;"
+                  moduleName = "SlideGalleryController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/SlideGalleryController/SlideGalleryController/PhotoSliderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "CA18AA0B-06BC-4812-92BB-FA9C15E83365 - cb34cfcdcc24b7dd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlideGalleryController.PhotoSliderView.scrollView.setter : Swift.Optional&lt;__C.UIScrollView&gt;"
+                  moduleName = "SlideGalleryController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/SlideGalleryController/SlideGalleryController/PhotoSliderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "CA18AA0B-06BC-4812-92BB-FA9C15E83365 - e01766344f07ea5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlideGalleryController.PhotoSliderView.scrollView.modify : Swift.Optional&lt;__C.UIScrollView&gt;"
+                  moduleName = "SlideGalleryController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/SlideGalleryController/SlideGalleryController/PhotoSliderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "CA18AA0B-06BC-4812-92BB-FA9C15E83365 - 7ee27bf860b5fbdf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlideGalleryController.PhotoSliderView.scrollView.modify : Swift.Optional&lt;__C.UIScrollView&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SlideGalleryController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/SlideGalleryController/SlideGalleryController/PhotoSliderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "CA18AA0B-06BC-4812-92BB-FA9C15E83365 - c189717df4d1401b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlideGalleryController.PhotoSliderView.init(frame: __C.CGRect) -&gt; SlideGalleryController.PhotoSliderView"
+                  moduleName = "SlideGalleryController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/SlideGalleryController/SlideGalleryController/PhotoSliderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "CA18AA0B-06BC-4812-92BB-FA9C15E83365 - 55a0d8d9f9a8b94a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlideGalleryController.PhotoSliderView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SlideGalleryController.PhotoSliderView&gt;"
+                  moduleName = "SlideGalleryController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/SlideGalleryController/SlideGalleryController/PhotoSliderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "121">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C2A724AD-467C-4A06-A5AB-5F8FA08F7D2A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SlideGalleryController/PhotoSliderView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "PhotoSliderView"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "C2A724AD-467C-4A06-A5AB-5F8FA08F7D2A - 9d0092fd3c671e9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlideGalleryController.PhotoSliderView.pageControl.getter : Swift.Optional&lt;__C.UIPageControl&gt;"
+                  moduleName = "SlideGalleryController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/SlideGalleryController/SlideGalleryController/PhotoSliderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "94">
+               </Location>
+               <Location
+                  uuid = "C2A724AD-467C-4A06-A5AB-5F8FA08F7D2A - f10818fb85952268"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlideGalleryController.PhotoSliderView.pageControl.setter : Swift.Optional&lt;__C.UIPageControl&gt;"
+                  moduleName = "SlideGalleryController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/SlideGalleryController/SlideGalleryController/PhotoSliderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "C2A724AD-467C-4A06-A5AB-5F8FA08F7D2A - 949bf118f168b50f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlideGalleryController.PhotoSliderView.pageControl.modify : Swift.Optional&lt;__C.UIPageControl&gt;"
+                  moduleName = "SlideGalleryController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/SlideGalleryController/SlideGalleryController/PhotoSliderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  uuid = "C2A724AD-467C-4A06-A5AB-5F8FA08F7D2A - 8cd1297ae00d8006"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlideGalleryController.PhotoSliderView.pageControl.modify : Swift.Optional&lt;__C.UIPageControl&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "SlideGalleryController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/SlideGalleryController/SlideGalleryController/PhotoSliderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "15">
+               </Location>
+               <Location
+                  uuid = "C2A724AD-467C-4A06-A5AB-5F8FA08F7D2A - c189717df4d17ff8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlideGalleryController.PhotoSliderView.init(frame: __C.CGRect) -&gt; SlideGalleryController.PhotoSliderView"
+                  moduleName = "SlideGalleryController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/SlideGalleryController/SlideGalleryController/PhotoSliderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "208">
+               </Location>
+               <Location
+                  uuid = "C2A724AD-467C-4A06-A5AB-5F8FA08F7D2A - 55a0d8d9f9a886a9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SlideGalleryController.PhotoSliderView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;SlideGalleryController.PhotoSliderView&gt;"
+                  moduleName = "SlideGalleryController"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/student/Desktop/SlideGalleryController/SlideGalleryController/PhotoSliderView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "146">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

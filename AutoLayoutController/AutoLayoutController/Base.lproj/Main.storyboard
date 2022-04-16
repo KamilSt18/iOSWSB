@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayoutController" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1300"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qeJ-Fj-LPX">
+                                <rect key="frame" x="0.0" y="44" width="414" height="300"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" image="Cat" translatesAutoresizingMaskIntoConstraints="NO" id="f4F-VR-a9h">
+                                        <rect key="frame" x="0.0" y="86" width="414" height="128"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Dodaj do ulubionych" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qAq-Wr-BW6">
+                                        <rect key="frame" x="15" y="269" width="155.5" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="f4F-VR-a9h" firstAttribute="leading" secondItem="qeJ-Fj-LPX" secondAttribute="leading" id="6W0-5G-stD"/>
+                                    <constraint firstItem="qAq-Wr-BW6" firstAttribute="top" secondItem="f4F-VR-a9h" secondAttribute="bottom" id="81b-QC-cuX"/>
+                                    <constraint firstAttribute="height" constant="300" id="8hJ-S0-mzO"/>
+                                    <constraint firstAttribute="bottom" secondItem="qAq-Wr-BW6" secondAttribute="bottom" constant="10" id="X4K-DF-k3f"/>
+                                    <constraint firstAttribute="trailing" secondItem="f4F-VR-a9h" secondAttribute="trailing" id="uXU-sS-XiZ"/>
+                                    <constraint firstItem="f4F-VR-a9h" firstAttribute="top" secondItem="qeJ-Fj-LPX" secondAttribute="top" id="w13-Uu-r2v"/>
+                                    <constraint firstItem="qAq-Wr-BW6" firstAttribute="leading" secondItem="qeJ-Fj-LPX" secondAttribute="leading" constant="15" id="xh6-9N-Exk"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="obD-iv-sFc">
+                                <rect key="frame" x="0.0" y="344" width="414" height="30"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="hSM-IF-Oom"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CrI-Wg-R4p">
+                                <rect key="frame" x="0.0" y="374" width="414" height="892"/>
+                                <subviews>
+                                    <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gUE-ee-W0Y">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="892"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0iV-u9-RHF" userLabel="Content View">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="1000"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="S4f-E2-ZiF">
+                                                        <rect key="frame" x="0.0" y="158" width="414" height="606"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="350" id="D66-VV-CeZ"/>
+                                                            <constraint firstAttribute="height" constant="1000" id="qmR-h9-zRM"/>
+                                                        </constraints>
+                                                        <mutableString key="text">Samsung Galaxy S21 to smartfon z wyżej półki, bazowy model tegorocznego flagowca koreańskiego producenta. Może pochwalić się wyświetlaczem Dynamic AMOLED 2X o przekątnej 6,2 cala, rozdzielczości Full HD+ i wysokiej częstotliwości odświeżania 120 Hz. Nigdy więcej nie przegap tego idealnego ujęcia. Poznaj Galaxy S21 5G i S21+ 5G. Zaprojektowane, aby zrewolucjonizować wideo i fotografię, z rozdzielczością 8K przekraczającą kinową, dzięki czemu możesz robić niesamowite zdjęcia bezpośrednio z wideo. To wszystko w dwóch rozmiarach: 64 MP, nasz najszybszy chipset i ogromna bateria na cały dzień. Rzeczy stały się niesamowite. Wyświetlacz Dynamic AMOLED 2X w Galaxy S21 5G i S21+ 5G otrzymał certyfikat od VDE Germany na 100-procente odwzorowanie koloru dla urządzeń mobilnych w zakresie kolorów DCI-P3, co oznacza, że Twoje obrazy nie są rozmyte i uzyskasz niewiarygodnie żywe kolory niezależnie od różnych poziomów jasności. Wyświetlacz może osiągnąć maksymalną jasność do 1300 nitów, poprawiając kontrast pomiędzy ciemnymi i jasnymi aspektami cyfrowych treści dla uzyskania doskonalszej jakości obrazu, ze współczynnikiem kontrastu 2 000 000:1, czyniąc Twoje mobilne doznania jeszcze bardziej wciągającymi. Bazowy model tegorocznego flagowca koreańskiego producenta. Może pochwalić się wyświetlaczem Dynamic AMOLED 2X o przekątnej 6,2 cala, rozdzielczości Full HD+ i wysokiej częstotliwości odświeżania 120 Hz. Nigdy więcej nie przegap tego idealnego ujęcia. Poznaj Galaxy S21 5G i S21+ 5G. Zaprojektowane, aby zrewolucjonizować wideo i fotografię, z rozdzielczością 8K przekraczającą kinową, dzięki czemu możesz robić niesamowite zdjęcia bezpośrednio z wideo. To wszystko w dwóch rozmiarach: 64 MP, nasz najszybszy chipset i ogromna bateria na cały dzień. Rzeczy stały się niesamowite. Wyświetlacz Dynamic AMOLED 2X w Galaxy S21 5G i S21+ 5G otrzymał certyfikat od VDE Germany na 100-procente odwzorowanie koloru dla urządzeń mobilnych w zakresie kolorów DCI-P3, co oznacza, że Twoje obrazy nie są rozmyte i uzyskasz niewiarygodnie żywe kolory niezależnie od różnych poziomów jasności. Wyświetlacz może osiągnąć maksymalną jasność do 1300 nitów, poprawiając kontrast pomiędzy ciemnymi i jasnymi aspektami cyfrowych treści dla uzyskania doskonalszej jakości obrazu, ze współczynnikiem kontrastu 2 000 000:1, czyniąc Twoje mobilne doznania jeszcze bardziej wciągającymi. To wszystko w dwóch rozmiarach: 64 MP, nasz najszybszy chipset i ogromna bateria na cały dzień. Rzeczy stały się niesamowite.</mutableString>
+                                                        <color key="textColor" systemColor="tertiarySystemBackgroundColor"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                    <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="checkButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z84-04-gNT">
+                                                        <rect key="frame" x="0.0" y="915" width="160" height="60"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="160" id="8i6-7U-tIL"/>
+                                                            <constraint firstAttribute="height" constant="60" id="Yeb-rx-fKO"/>
+                                                        </constraints>
+                                                        <state key="normal" title="Button"/>
+                                                        <buttonConfiguration key="configuration" style="filled" title="Sprawdź dostępność">
+                                                            <color key="baseBackgroundColor" systemColor="systemPinkColor"/>
+                                                        </buttonConfiguration>
+                                                        <connections>
+                                                            <action selector="clickButton:" destination="BYZ-38-t0r" eventType="touchDown" id="YcH-Ga-3IU"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <color key="backgroundColor" red="0.066666666666666666" green="0.066666666666666666" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="Z84-04-gNT" secondAttribute="trailing" id="3YD-0O-xxM"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Z84-04-gNT" secondAttribute="bottom" constant="25" id="Db1-ex-Al0"/>
+                                                    <constraint firstItem="Z84-04-gNT" firstAttribute="leading" secondItem="0iV-u9-RHF" secondAttribute="leading" id="LR5-ie-cl1"/>
+                                                    <constraint firstAttribute="height" constant="1000" id="N3W-z3-wea"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstItem="0iV-u9-RHF" firstAttribute="leading" secondItem="gUE-ee-W0Y" secondAttribute="leading" id="3Ew-UM-Kar"/>
+                                            <constraint firstItem="0iV-u9-RHF" firstAttribute="top" secondItem="gUE-ee-W0Y" secondAttribute="top" id="GCZ-OT-Eoy"/>
+                                            <constraint firstAttribute="bottom" secondItem="0iV-u9-RHF" secondAttribute="bottom" id="Wy1-jj-fYd"/>
+                                            <constraint firstAttribute="trailing" secondItem="0iV-u9-RHF" secondAttribute="trailing" id="gql-VI-8mJ"/>
+                                        </constraints>
+                                    </scrollView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1j-fZ-FcM">
+                                        <rect key="frame" x="349" y="-30" width="50" height="50"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="50" id="58O-4H-h87"/>
+                                            <constraint firstAttribute="height" constant="50" id="OGz-jZ-GYt"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="♥️"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" red="0.066666666666666666" green="0.066666666666666666" blue="0.066666666666666666" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstItem="0iV-u9-RHF" firstAttribute="width" secondItem="CrI-Wg-R4p" secondAttribute="width" id="860-yH-X0b"/>
+                                    <constraint firstItem="gUE-ee-W0Y" firstAttribute="leading" secondItem="CrI-Wg-R4p" secondAttribute="leading" id="GvW-77-0VZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="gUE-ee-W0Y" secondAttribute="trailing" id="Pox-Dh-rU6"/>
+                                    <constraint firstItem="gUE-ee-W0Y" firstAttribute="top" secondItem="CrI-Wg-R4p" secondAttribute="top" id="VGX-ge-ADd"/>
+                                    <constraint firstAttribute="bottom" secondItem="gUE-ee-W0Y" secondAttribute="bottom" id="Yhe-Lc-VKo"/>
+                                    <constraint firstItem="B1j-fZ-FcM" firstAttribute="top" secondItem="CrI-Wg-R4p" secondAttribute="top" constant="-30" id="tkr-25-2zZ"/>
+                                    <constraint firstAttribute="trailing" secondItem="B1j-fZ-FcM" secondAttribute="trailing" constant="15" id="vH2-a1-lXP"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="CrI-Wg-R4p" firstAttribute="top" secondItem="obD-iv-sFc" secondAttribute="bottom" id="2Q9-Vo-oKb"/>
+                            <constraint firstItem="obD-iv-sFc" firstAttribute="top" secondItem="qeJ-Fj-LPX" secondAttribute="bottom" id="OHa-fm-F2x"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="CrI-Wg-R4p" secondAttribute="bottom" id="R1J-0e-rKB"/>
+                            <constraint firstItem="qeJ-Fj-LPX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Tmy-Am-gfg"/>
+                            <constraint firstItem="CrI-Wg-R4p" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="lZw-Rp-QjP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="CrI-Wg-R4p" secondAttribute="trailing" id="mkF-Y5-KnD"/>
+                            <constraint firstItem="qeJ-Fj-LPX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="por-ze-PcP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qeJ-Fj-LPX" secondAttribute="trailing" id="y9Y-i5-sZ9"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="1300"/>
+                    <connections>
+                        <outlet property="checkButton" destination="Z84-04-gNT" id="RwE-ez-ieM"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" id="t0R-NJ-sAy">
+                    <rect key="frame" x="0.0" y="0.0" width="414" height="480"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <viewLayoutGuide key="safeArea" id="Rfx-J7-XRB"/>
+                    <viewLayoutGuide key="contentLayoutGuide" id="v2O-xs-ath"/>
+                    <viewLayoutGuide key="frameLayoutGuide" id="J49-aG-eeS"/>
+                </scrollView>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Cat" width="325" height="234.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiarySystemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AlertControllerTest" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="tRp-Tr-TWc">
+                                <rect key="frame" x="82" y="310.5" width="250" height="275"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rY8-ro-7td">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="250" id="BnD-bt-Kb8"/>
+                                            <constraint firstAttribute="height" constant="31" id="OEf-l6-ed4"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Z jednym przyciskiem"/>
+                                        <connections>
+                                            <action selector="showAlert" destination="BYZ-38-t0r" eventType="touchDown" id="oKO-wz-fPt"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u8Y-7T-IrL">
+                                        <rect key="frame" x="0.0" y="61" width="250" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="6aH-9R-g3W"/>
+                                            <constraint firstAttribute="height" constant="31" id="dfS-PJ-BBF"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Action Sheet"/>
+                                        <connections>
+                                            <action selector="showSimpleActionSheetWith_sender:controller:" destination="BYZ-38-t0r" eventType="touchDown" id="Q8c-m4-wFl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dpc-iZ-0U7">
+                                        <rect key="frame" x="0.0" y="122" width="250" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="2iS-ga-iU2"/>
+                                            <constraint firstAttribute="height" constant="31" id="VsD-G3-6ga"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Destrukcyjny przycisk"/>
+                                        <connections>
+                                            <action selector="showAlertWithDistructiveButtonWith_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="ed3-R5-d7D"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rMm-9o-WXU">
+                                        <rect key="frame" x="0.0" y="183" width="250" height="31"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="31" id="AiS-dw-Y72"/>
+                                            <constraint firstAttribute="width" constant="200" id="E5J-0v-zcR"/>
+                                        </constraints>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="UITextField"/>
+                                        <connections>
+                                            <action selector="showAlertWithTextFieldWith_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="Kpv-7N-E4B"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOe-QM-05g">
+                                        <rect key="frame" x="0.0" y="244" width="250" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="filled" title="Toast"/>
+                                        <connections>
+                                            <action selector="showToastWith_sender:" destination="BYZ-38-t0r" eventType="touchDown" id="sWe-jH-yzZ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="tRp-Tr-TWc" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ALM-Wl-qRL"/>
+                            <constraint firstItem="tRp-Tr-TWc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="hF7-6p-oHQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="20" y="84"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
